@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/motorola/penangf
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := penangf
+
 # inherit from common mt6768-common
 -include device/motorola/mt6768-common/BoardConfigCommon.mk
 
