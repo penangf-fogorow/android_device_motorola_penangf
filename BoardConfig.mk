@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/motorola/penangf
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := penangf
 

@@ -1,0 +1,92 @@
+<manifest version="4.0" type="device" target-level="5">
+<hal format="hidl">
+    <name>android.hardware.biometrics.face</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>IBiometricsFace</name>
+        <instance>default</instance>
+    </interface>
+    <fqname>@1.0::IBiometricsFace/default</fqname>
+</hal>
+<hal format="hidl">
+    <name>android.hardware.nfc</name>
+    <transport>hwbinder</transport>
+    <version>1.2</version>
+    <interface>
+        <name>INfc</name>
+        <instance>default</instance>
+    </interface>
+    <fqname>@1.2::INfc/default</fqname>
+</hal>
+<hal format="hidl">
+    <name>vendor.egistecbix.hardware.fingerprint</name>
+    <transport>hwbinder</transport>
+    <version>4.0</version>
+    <interface>
+        <name>IBiometricsFingerprintBix</name>
+        <instance>default</instance>
+    </interface>
+    <fqname>@4.0::IBiometricsFingerprintBix/default</fqname>
+</hal>
+<hal format="hidl">
+    <name>vendor.mediatek.hardware.aee</name>
+    <transport>hwbinder</transport>
+    <version>1.1</version>
+    <interface>
+        <name>IAee</name>
+        <instance>AEE</instance>
+        <instance>default</instance>
+    </interface>
+    <fqname>@1.1::IAee/AEE</fqname>
+    <fqname>@1.1::IAee/default</fqname>
+</hal>
+<hal format="hidl">
+    <name>vendor.mediatek.hardware.face</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>IExtBiometricsFace</name>
+        <instance>default</instance>
+    </interface>
+    <fqname>@1.0::IExtBiometricsFace/default</fqname>
+</hal>
+<hal format="hidl">
+    <name>vendor.mediatek.hardware.log</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>ILog</name>
+        <instance>ATMWiFiHidlServer</instance>
+        <instance>ConnsysFWHidlServer</instance>
+        <instance>LoggerHidlServer</instance>
+        <instance>MobileLogHidlServer</instance>
+        <instance>ModemLogHidlServer</instance>
+    </interface>
+    <fqname>@1.0::ILog/ATMWiFiHidlServer</fqname>
+    <fqname>@1.0::ILog/ConnsysFWHidlServer</fqname>
+    <fqname>@1.0::ILog/LoggerHidlServer</fqname>
+    <fqname>@1.0::ILog/MobileLogHidlServer</fqname>
+    <fqname>@1.0::ILog/ModemLogHidlServer</fqname>
+</hal>
+<hal format="hidl">
+    <name>vendor.mediatek.hardware.mdmonitor</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>IMDMonitorService</name>
+        <instance>default</instance>
+    </interface>
+    <fqname>@1.0::IMDMonitorService/default</fqname>
+</hal>
+<hal format="hidl">
+    <name>vendor.nxp.nxpnfc</name>
+    <transport>hwbinder</transport>
+    <version>2.0</version>
+    <interface>
+        <name>INxpNfc</name>
+        <instance>default</instance>
+    </interface>
+    <fqname>@2.0::INxpNfc/default</fqname>
+</hal>
+</manifest>
